@@ -36,6 +36,7 @@ yarn-error.log*
 
 # prisma
 /prisma/*
+!/prisma/schema.prisma
 
 **/*.trace
 **/*.zip
