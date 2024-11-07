@@ -31,16 +31,14 @@ A simple Notes API built with Elysia and Prisma. This API allows users to create
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/naufaldi/note-be.git
+   cd note-be
    ```
 
 2. Install dependencies:
 
    ```bash
-   npm install
-   # or
-   yarn install
+   bun install
    ```
 
 3. Set up your environment variables:
@@ -54,9 +52,7 @@ A simple Notes API built with Elysia and Prisma. This API allows users to create
 
 5. Start the server:
    ```bash
-   npm run start
-   # or
-   yarn start
+   bun run start
    ```
 
 ### API Endpoints
@@ -77,7 +73,7 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License
 
 ## Acknowledgments
 
