@@ -2,6 +2,7 @@ import { Elysia, t } from 'elysia';
 import { prisma } from './utils/prisma';
 import { swagger } from '@elysiajs/swagger';
 import { noteRouter } from './routes/noteRouter';
+import { authRouter } from './routes/authRouter';
 
 const app = new Elysia()
   .use(
@@ -16,6 +17,7 @@ const app = new Elysia()
     })
   )
   .use(noteRouter)
+  .use(authRouter)
   .listen(3000);
 
 console.log(
